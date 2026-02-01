@@ -1,0 +1,148 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 450px;
+    height: 420vh;
+    background-color: #f8f8ed;
+    border: none;
+    position: relative;
+}
+.card .image2{
+    position: absolute;
+    display: none;
+}
+.card .Intro h1{
+    margin-top: 100px;
+}
+.card .Intro h3{
+    font-weight: bold;
+}
+.card .Directions .map{
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.card .Directions .transfer{
+    text-align: center;
+}
+.card .Intro .name{
+    margin-top: 100px;
+}
+.card .Intro .name p{
+    font-size: 1.5vh;
+}
+.card .Intro .name span{
+    font-weight: bold;
+    font-size: 2vh;
+}
+.card .date{
+    margin-top: 30px;
+}
+.card h1{
+    text-align: center;
+    font-size: 2.5vh;
+    font-weight: bold;
+    margin-top: 200px;
+    margin-bottom: 20px;
+}
+.card h2{
+    display: inline-block;
+    font-size: 1.6vh;
+    font-weight: bold;
+    margin-bottom: 30px;
+   
+}
+.card h3{
+    font-size: 2.3vh;
+    text-align: center;
+    margin-bottom: 50px;
+   
+}
+.card p{
+    text-align: center;
+    font-size: 1.6vh;
+    margin-top: 5px;
+}
+.card hr{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+/* 계좌번호 */
+        .qna-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #333;
+        }
+
+        .qna-item {
+            /* background: white; */
+            border-radius: 8px;
+            margin-bottom: 16px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: box-shadow 0.3s;
+        }
+
+        .qna-item:hover {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+
+        .question {
+            padding: 20px 24px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            user-select: none;
+            transition: background-color 0.3s;
+        }
+
+        .question:hover {
+            background-color: #fff;
+        }
+
+        .question-text {
+            font-size: 16px;
+            font-weight: 300;
+            color: #333;
+            flex: 1;
+        }
+
+        .icon {
+            width: 24px;
+            height: 24px;
+            transition: transform 0.3s;
+            color: #666;
+            font-size: 20px;
+        }
+
+        .qna-item.active .icon {
+            transform: rotate(180deg);
+        }
+
+        .answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+            background-color: #fafafa;
+        }
+
+        .qna-item.active .answer {
+            max-height: 500px;
+            padding: 20px 24px;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .answer-text {
+            color: #666;
+            line-height: 1.6;
+            font-size: 14px;
+        }
