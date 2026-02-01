@@ -1,10 +1,15 @@
+body{
+  font-family: "Gowun Dodum", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 .container {
     display: flex;
     justify-content: center;
 }
 .card{
     width: 450px;
-    height: 420vh;
+    height: 320vh;
     background-color: #f8f8ed;
     border: none;
     position: relative;
@@ -31,38 +36,39 @@
     margin-top: 100px;
 }
 .card .Intro .name p{
-    font-size: 1.5vh;
+    font-size: 1.2vh;
 }
 .card .Intro .name span{
     font-weight: bold;
-    font-size: 2vh;
+    font-size: 1.4em;
 }
 .card .date{
-    margin-top: 30px;
+    margin-top: 50px;
+    font-size: 1.2em;
 }
 .card h1{
     text-align: center;
-    font-size: 2.5vh;
+    font-size: 2em;
     font-weight: bold;
     margin-top: 200px;
     margin-bottom: 20px;
 }
 .card h2{
     display: inline-block;
-    font-size: 1.6vh;
+    font-size: 1.4vh;
     font-weight: bold;
     margin-bottom: 30px;
    
 }
 .card h3{
-    font-size: 2.3vh;
+    font-size: 1.6em;
     text-align: center;
     margin-bottom: 50px;
    
 }
 .card p{
     text-align: center;
-    font-size: 1.6vh;
+    font-size: 1em;
     margin-top: 5px;
 }
 .card hr{
