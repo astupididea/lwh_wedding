@@ -9,7 +9,7 @@ body{
 }
 .card{
     width: 430px;
-    height: 4700px;
+    height: 4800px;
     background-color: #f8f8ed;
     position: relative;
 }
@@ -40,7 +40,7 @@ body{
     margin-top: 100px;
 }
 .card .Intro .name p{
-    font-size: 1.2vh;
+    font-size: 1.4vh;
 }
 .card .Intro .name span{
     font-weight: bold;
@@ -78,6 +78,8 @@ body{
 .card hr{
     margin-bottom: 50px;
     margin-top: 50px;
+    border: none;
+    border-bottom: 1px solid #b8b8b8;
 }
 
 /* 미디어쿼리 */
