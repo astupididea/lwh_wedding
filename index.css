@@ -17,7 +17,7 @@ body{
     position: absolute;
     left: 0;
     top: 0;
-    display: none;
+    transition: opacity 1.2s;
 }
 .card .image0 img{
     width: 430px;
@@ -54,7 +54,7 @@ body{
     text-align: center;
     font-size: 1.6em;
     font-weight: bold;
-    margin-top: 200px;
+    margin-top: 150px;
     margin-bottom: 20px;
 }
 .card h2{
