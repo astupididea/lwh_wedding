@@ -2,34 +2,34 @@ const image1 = document.querySelector(".card .image1");
 const image2 = document.querySelector(".card .image2");
 
 
-function toggleImage() {
-    setTimeout(function(){
-        image2.style.opacity = "1";
-        // image2.style.display = "block";
+// function toggleImage() {
+//     setTimeout(function(){
+//         image2.style.opacity = "1";
+//         // image2.style.display = "block";
         
-        setTimeout(function(){
-            image2.style.opacity = "0";
-            // image2.style.display = "none";
+//         setTimeout(function(){
+//             image2.style.opacity = "0";
+//             // image2.style.display = "none";
             
-            // 다시 반복
-            toggleImage();
-        }, 2500);
+//             // 다시 반복
+//             toggleImage();
+//         }, 2500);
         
-    }, 2500);
-}
+//     }, 2500);
+// }
 
-toggleImage();
+// toggleImage();
 
 // 타임아웃 한번 반복
-// setTimeout(function(){
-//     image2.style.display = "block";
+setTimeout(function(){
+    image2.style.opacity = "1";
 
-//     setTimeout(function(){
-//     image2.style.display = "none";
+    setTimeout(function(){
+    image2.style.opacity = "0";
 
-//     }, 3000);
+    }, 300);
 
-// }, 6000);
+}, 300);
 
 // 이벤트 리스너
 // image1.addEventListener('mouseenter', function(){
