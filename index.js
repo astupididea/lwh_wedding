@@ -1,11 +1,11 @@
 const image1 = document.querySelector(".card .image1");
 const image2 = document.querySelector(".card .image2");
 
-image1.addEventListener('mouseover', function(){
+image1.addEventListener('mouseenter', function(){
     image2.style.display = "block";
 });
 
-image1.addEventListener('mouseout', function(){
+image1.addEventListener('mouseleave', function(){
     image2.style.display = "none";
 });
 

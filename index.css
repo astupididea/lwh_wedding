@@ -8,18 +8,19 @@ body{
     justify-content: center;
 }
 .card{
-    max-width: 360px;
-    height: 4000px;
+    width: 430px;
+    height: 4500px;
     background-color: #f8f8ed;
-    border: none;
     position: relative;
-}
-.card .image1{
-    width: 420px;
 }
 .card .image2{
     position: absolute;
+    left: 0;
+    top: 0;
     display: none;
+}
+.card .image0 img{
+    width: 430px;
 }
 .card .Intro h1{
     margin-top: 100px;
@@ -77,6 +78,67 @@ body{
 .card hr{
     margin-bottom: 50px;
     margin-top: 50px;
+}
+
+/* 미디어쿼리 */
+@media (max-width: 414px) {
+    .card{
+    width: 414px;
+}
+    .card .image0 img{
+    width: 414px;
+}
+    .card .image1 img{
+    width: 414px;
+}
+    .card .image2 img{
+    width: 414px;
+}
+}
+
+@media (max-width: 390px) {
+    .card{
+    width: 390px;
+}
+    .card .image0 img{
+    width: 390px;
+}
+    .card .image1 img{
+    width: 390px;
+}
+    .card .image2 img{
+    width: 390px;
+}
+}
+
+@media (max-width: 375px) {
+    .card{
+    width: 375px;
+}
+    .card .image0 img{
+    width: 375px;
+}
+    .card .image1 img{
+    width: 375px;
+}
+    .card .image2 img{
+    width: 375px;
+}
+}
+
+@media (max-width: 360px) {
+    .card{
+    width: 360px;
+}
+    .card .image0 img{
+    width: 360px;
+}
+    .card .image1 img{
+    width: 360px;
+}
+    .card .image2 img{
+    width: 360px;
+}
 }
 
 /* 계좌번호 */
