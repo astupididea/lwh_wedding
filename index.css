@@ -44,7 +44,7 @@ body{
 }
 .card .Intro .name span{
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.4em;
 }
 .card .date{
     margin-top: 50px;
@@ -99,6 +99,9 @@ body{
 }
     .card .image2 img{
     width: 414px;
+}
+.card p{
+    font-size: 0.9em;
 }
 }
 
