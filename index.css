@@ -9,7 +9,7 @@ body{
 }
 .card{
     width: 430px;
-    height: 4800px;
+    height: 5000px;
     background-color: #f8f8ed;
     position: relative;
 }
@@ -44,7 +44,7 @@ body{
 }
 .card .Intro .name span{
     font-weight: bold;
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 .card .date{
     margin-top: 50px;
@@ -75,11 +75,15 @@ body{
     font-size: 1em;
     margin-top: 5px;
 }
+.card .name p:nth-child(2){
+    margin-bottom: 0;
+}
+
 .card hr{
     margin-bottom: 50px;
     margin-top: 50px;
     border: none;
-    border-bottom: 1px solid #b8b8b8;
+    border-bottom: 1px solid #d5d5d5;
 }
 
 /* 미디어쿼리 */
